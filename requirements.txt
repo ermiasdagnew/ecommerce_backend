@@ -1,0 +1,7 @@
+
+Django
+djangorestframework
+djangorestframework-simplejwt
+django-filter
+drf-yasg
+python-dotenv
