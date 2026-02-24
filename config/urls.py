@@ -1,4 +1,4 @@
-
+from django.http import HttpResponse 
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
@@ -23,4 +23,5 @@ urlpatterns = [
     path("api/users/", include("users.urls")),
     path("api/", include("products.urls")),
     path("swagger/", schema_view.with_ui("swagger")),
+    path('', lambda request: HttpResponse("Ecommerce API is running 🚀"))
 ]
