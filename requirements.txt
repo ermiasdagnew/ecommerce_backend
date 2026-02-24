@@ -6,3 +6,5 @@ django-filter
 drf-yasg
 python-dotenv
 gunicorn
+dj-database-url
+psycopg2-binary
