@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv("SECRET_KEY", "unsafe-secret-key")
 DEBUG = True
-ALLOWED_HOSTS = ['ecommerce-backend-r8jm.onrender.com']
+ALLOWED_HOSTS = ['.onrender.com']
 
 INSTALLED_APPS = [
     "django.contrib.admin",
